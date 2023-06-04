@@ -1,7 +1,7 @@
 {
-	"name": "chrome-extension-typescript-starter",
+	"name": "dappinspect",
 	"version": "1.0.0",
-	"description": "chrome-extension-typescript-starter",
+	"description": "a web inspector for dapps",
 	"main": "index.js",
 	"scripts": {
 		"watch": "webpack --config webpack/webpack.dev.js --watch",
@@ -11,10 +11,6 @@
 	},
 	"author": "",
 	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/chibat/chrome-extension-typescript-starter.git"
-	},
 	"dependencies": {
 		"css-loader": "^6.8.1",
 		"postcss-loader": "^7.3.2",

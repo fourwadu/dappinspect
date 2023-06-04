@@ -1,8 +1,8 @@
 {
 	"manifest_version": 3,
 
-	"name": "webinsp3ctor",
-	"description": "Chrome Extension, TypeScript, Visual Studio Code",
+	"name": "dappinspect",
+	"description": "a web inspector for dapps",
 	"version": "1.0",
 
 	"options_ui": {
@@ -10,7 +10,9 @@
 	},
 
 	"action": {
-		"default_icon": "icon.png",
+		"default_icon": {
+			"24": "icon.png"
+		},
 		"default_popup": "popup.html"
 	},
 
